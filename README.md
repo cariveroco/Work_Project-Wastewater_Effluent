@@ -47,7 +47,7 @@ Plots per quarter show improvement from 1Q 2017 to 3Q 2017. However, plotting pe
 
 5. **Box Plots per mixed Period**
 
-When data are plotted yearly in 2015 & 201 and quarterly in 2017, almost all of the box plots now have whiskers below Class SB limits. The medians are also progressing downwards from 1Q to 3Q 2017. However, there are blatant outliers for TSS and COD that are skewing plots. Adjusting the plot y-axis limit will allow for better plot aesthetics.
+When data are plotted yearly in 2015 & 2016 and quarterly in 2017, almost all of the box plots now have whiskers below Class SB limits. The medians are also progressing downwards from 1Q to 3Q 2017. However, there are blatant outliers for TSS and COD that are skewing plots. Adjusting the plot y-axis limit will allow for better plot aesthetics.
 
 
 6. **Box Plots per Period with Bound axis (FINAL)**
