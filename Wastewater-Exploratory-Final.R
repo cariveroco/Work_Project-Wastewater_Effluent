@@ -209,8 +209,8 @@ for (i in 1:6){
 }
 
 ## Box plots per quarter show improvement from 1Q 2017 to 3Q 2017.
-## However, plotter per quarter also emphasizes major noncompliances in TSS and
-## COD on 4th quarter 2016, as well as record gaps in Phenols.
+## However, plotting per quarter also emphasizes major noncompliances in TSS and
+## COD in 4th quarter 2016, as well as record gaps in Phenols.
 
 
 
@@ -245,10 +245,10 @@ for (i in 1:6){
         dev.off()
 }
 
-## Almost all of the box plots now have whiskers below the limit.
+## Almost all of the box plots now have whiskers below Class SB limits.
 ## The medians are also progressing downwards from 1Q to 3Q 2017.
 ## However, there are blatant outliers for TSS and COD that are skewing plots.
-## Adjusting the plot y-axis limit will allow for better.
+## Adjusting the plot y-axis limit will allow for better plot aesthetics.
 
 
 ## 6. Create bound period box plots
