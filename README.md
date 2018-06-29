@@ -4,7 +4,7 @@ The company was preparing an Environmental Performance Report which aimed to sho
 
 Traditionally, environmental performance reports are submitted as box plots. The script first analyzed the data using scatter plots, then explored box plots using various grouping of data (ie, per whole time range, per year, per quarter). The best plots which emphasized the company’s progressive improvement in 2017 while still showing noncompliances in previous years were achieved when data were plotted per year in 2015 and 2016, while per quarter in 2017. These mixed-period plots were proposed to management and were the only ones they found acceptable for publication.
 
-## Data Scope and Cleaning
+### Data Scope and Cleaning
 
 Measurements for the regulated parameters are recorded daily. The source used in compiling the data are from PDF files of self-monitoring reports submitted to DENR, from 2nd quarter 2015 to 3rd quarter 2017. The company ceased in submitting daily data since 4th quarter 2017.
 
@@ -14,7 +14,7 @@ DENR reclassified Manila bay from Class SC to Class SB, which meant that effluen
 
 Normally, if one or more of the measured parameters are off-spec, the plant will not discharge effluent to water bodies and instead will initiate reprocessing. Such days tagged as *No Discharge* were removed from the analysis since no violations were committed.
 
-## Parameters
+### Parameters
 
 The regulated parameters are Biological Oxygen Demand (BOD), Total Suspended Solids (TSS), Oil & Grease (OG), pH, Phenols, and Chemical Oxygen Demand (COD). Records are all in units of mg/L concentration, except for pH which is unitless. The following data were used for looping a single plotting code for all 6 parameters:
 
@@ -27,7 +27,7 @@ pH               | 6.0 – 9.0
 Phenols      | 0.05 mg/L
 COD            | 60 mg/L
 
-## Analysis Process
+### Analysis Process
 
 1. **Scatter Plots for Exploratory Analysis**
 
