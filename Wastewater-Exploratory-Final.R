@@ -216,6 +216,8 @@ for (i in 1:6){
 
 ## 5. Create box plots per mixed period
 ## Yearly for 2015 and 2016, quarterly for 2017
+## It was noted that this form of summarization skews the x-axis scale and other
+## plot types (ie, scatter plot) may be better for showing improvement over time
 
 cleanpd <- mutate(cleanpd, Period = ifelse(Date < pd, levels(Year)[Year],
                 levels(Quarter)[Quarter]))
@@ -282,4 +284,5 @@ for (i in 1:6){
         dev.off()
 }
 
-## These are the final plots proposed to management and which they found acceptable.
+## These are the only plots that management found acceptable, amidst caution that 
+## the x-axis scale was skewed by the mixed period groupings.
